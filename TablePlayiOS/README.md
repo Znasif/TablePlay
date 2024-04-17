@@ -6,6 +6,10 @@ A ipadOS table top game viewer for real game data. You can walk around the field
 
 Time spent: **1** hours spent in total
 
+##Wireframe:
+
+[![Wireframe](https://github.com/Znasif/TablePlay/blob/main/TablePlayiOS/wireframe.png?raw=true)](https://github.com/Znasif/TablePlay/blob/main/TablePlayiOS/Wireframe.pdf)
+
 ## Required Features
 
 The following functionality is underway:
