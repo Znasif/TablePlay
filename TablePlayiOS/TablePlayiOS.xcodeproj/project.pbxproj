@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E21D48872BCF4DC700E60EFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D48862BCF4DC700E60EFA /* AppDelegate.swift */; };
-		E21D48892BCF4DC700E60EFA /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E21D48882BCF4DC700E60EFA /* Shaders.metal */; };
-		E21D488C2BCF4DC700E60EFA /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D488B2BCF4DC700E60EFA /* Renderer.swift */; };
-		E21D488E2BCF4DC700E60EFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D488D2BCF4DC700E60EFA /* ViewController.swift */; };
-		E21D48912BCF4DC700E60EFA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E21D48902BCF4DC700E60EFA /* Base */; };
-		E21D48932BCF4DC800E60EFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21D48922BCF4DC800E60EFA /* Assets.xcassets */; };
+		E20485CA2BD10085000AEC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20485C92BD10085000AEC2D /* AppDelegate.swift */; };
+		E20485CC2BD10085000AEC2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20485CB2BD10085000AEC2D /* ContentView.swift */; };
+		E20485CE2BD10087000AEC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20485CD2BD10087000AEC2D /* Assets.xcassets */; };
+		E20485D12BD10087000AEC2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20485D02BD10087000AEC2D /* Preview Assets.xcassets */; };
+		E20485D92BD10148000AEC2D /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = E20485D82BD10148000AEC2D /* games.json */; };
+		E20485DB2BD101FF000AEC2D /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20485DA2BD101FF000AEC2D /* GameData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E21D48832BCF4DC700E60EFA /* TablePlayiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablePlayiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E21D48862BCF4DC700E60EFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E21D48882BCF4DC700E60EFA /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		E21D488A2BCF4DC700E60EFA /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
-		E21D488B2BCF4DC700E60EFA /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		E21D488D2BCF4DC700E60EFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E21D48902BCF4DC700E60EFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E21D48922BCF4DC800E60EFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E21D48942BCF4DC800E60EFA /* TablePlayiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TablePlayiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		E20485C62BD10085000AEC2D /* TablePlayiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablePlayiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20485C92BD10085000AEC2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E20485CB2BD10085000AEC2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E20485CD2BD10087000AEC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E20485D02BD10087000AEC2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E20485D82BD10148000AEC2D /* games.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = games.json; path = ../../../../../../Downloads/games.json; sourceTree = "<group>"; };
+		E20485DA2BD101FF000AEC2D /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E21D48802BCF4DC700E60EFA /* Frameworks */ = {
+		E20485C32BD10085000AEC2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,47 +36,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E21D487A2BCF4DC700E60EFA = {
+		E20485BD2BD10085000AEC2D = {
 			isa = PBXGroup;
 			children = (
-				E21D48852BCF4DC700E60EFA /* TablePlayiOS */,
-				E21D48842BCF4DC700E60EFA /* Products */,
+				E20485C82BD10085000AEC2D /* TablePlayiOS */,
+				E20485C72BD10085000AEC2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E21D48842BCF4DC700E60EFA /* Products */ = {
+		E20485C72BD10085000AEC2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E21D48832BCF4DC700E60EFA /* TablePlayiOS.app */,
+				E20485C62BD10085000AEC2D /* TablePlayiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E21D48852BCF4DC700E60EFA /* TablePlayiOS */ = {
+		E20485C82BD10085000AEC2D /* TablePlayiOS */ = {
 			isa = PBXGroup;
 			children = (
-				E21D48862BCF4DC700E60EFA /* AppDelegate.swift */,
-				E21D48882BCF4DC700E60EFA /* Shaders.metal */,
-				E21D488A2BCF4DC700E60EFA /* ShaderTypes.h */,
-				E21D488B2BCF4DC700E60EFA /* Renderer.swift */,
-				E21D488D2BCF4DC700E60EFA /* ViewController.swift */,
-				E21D488F2BCF4DC700E60EFA /* Main.storyboard */,
-				E21D48922BCF4DC800E60EFA /* Assets.xcassets */,
-				E21D48942BCF4DC800E60EFA /* TablePlayiOS-Bridging-Header.h */,
+				E20485DA2BD101FF000AEC2D /* GameData.swift */,
+				E20485C92BD10085000AEC2D /* AppDelegate.swift */,
+				E20485CB2BD10085000AEC2D /* ContentView.swift */,
+				E20485D72BD1012D000AEC2D /* Data */,
+				E20485CD2BD10087000AEC2D /* Assets.xcassets */,
+				E20485CF2BD10087000AEC2D /* Preview Content */,
 			);
 			path = TablePlayiOS;
+			sourceTree = "<group>";
+		};
+		E20485CF2BD10087000AEC2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E20485D02BD10087000AEC2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E20485D72BD1012D000AEC2D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E20485D82BD10148000AEC2D /* games.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E21D48822BCF4DC700E60EFA /* TablePlayiOS */ = {
+		E20485C52BD10085000AEC2D /* TablePlayiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E21D48972BCF4DC800E60EFA /* Build configuration list for PBXNativeTarget "TablePlayiOS" */;
+			buildConfigurationList = E20485D42BD10087000AEC2D /* Build configuration list for PBXNativeTarget "TablePlayiOS" */;
 			buildPhases = (
-				E21D487F2BCF4DC700E60EFA /* Sources */,
-				E21D48802BCF4DC700E60EFA /* Frameworks */,
-				E21D48812BCF4DC700E60EFA /* Resources */,
+				E20485C22BD10085000AEC2D /* Sources */,
+				E20485C32BD10085000AEC2D /* Frameworks */,
+				E20485C42BD10085000AEC2D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,25 +98,25 @@
 			);
 			name = TablePlayiOS;
 			productName = TablePlayiOS;
-			productReference = E21D48832BCF4DC700E60EFA /* TablePlayiOS.app */;
+			productReference = E20485C62BD10085000AEC2D /* TablePlayiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E21D487B2BCF4DC700E60EFA /* Project object */ = {
+		E20485BE2BD10085000AEC2D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					E21D48822BCF4DC700E60EFA = {
+					E20485C52BD10085000AEC2D = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = E21D487E2BCF4DC700E60EFA /* Build configuration list for PBXProject "TablePlayiOS" */;
+			buildConfigurationList = E20485C12BD10085000AEC2D /* Build configuration list for PBXProject "TablePlayiOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,55 +124,44 @@
 				en,
 				Base,
 			);
-			mainGroup = E21D487A2BCF4DC700E60EFA;
-			productRefGroup = E21D48842BCF4DC700E60EFA /* Products */;
+			mainGroup = E20485BD2BD10085000AEC2D;
+			productRefGroup = E20485C72BD10085000AEC2D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E21D48822BCF4DC700E60EFA /* TablePlayiOS */,
+				E20485C52BD10085000AEC2D /* TablePlayiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E21D48812BCF4DC700E60EFA /* Resources */ = {
+		E20485C42BD10085000AEC2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21D48932BCF4DC800E60EFA /* Assets.xcassets in Resources */,
-				E21D48912BCF4DC700E60EFA /* Base in Resources */,
+				E20485D12BD10087000AEC2D /* Preview Assets.xcassets in Resources */,
+				E20485D92BD10148000AEC2D /* games.json in Resources */,
+				E20485CE2BD10087000AEC2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E21D487F2BCF4DC700E60EFA /* Sources */ = {
+		E20485C22BD10085000AEC2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21D48892BCF4DC700E60EFA /* Shaders.metal in Sources */,
-				E21D488C2BCF4DC700E60EFA /* Renderer.swift in Sources */,
-				E21D488E2BCF4DC700E60EFA /* ViewController.swift in Sources */,
-				E21D48872BCF4DC700E60EFA /* AppDelegate.swift in Sources */,
+				E20485CC2BD10085000AEC2D /* ContentView.swift in Sources */,
+				E20485DB2BD101FF000AEC2D /* GameData.swift in Sources */,
+				E20485CA2BD10085000AEC2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		E21D488F2BCF4DC700E60EFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E21D48902BCF4DC700E60EFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		E21D48952BCF4DC800E60EFA /* Debug */ = {
+		E20485D22BD10087000AEC2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		E21D48962BCF4DC800E60EFA /* Release */ = {
+		E20485D32BD10087000AEC2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,23 +280,24 @@
 			};
 			name = Release;
 		};
-		E21D48982BCF4DC800E60EFA /* Debug */ = {
+		E20485D52BD10087000AEC2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TablePlayiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = D9Y3685GJS;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,29 +306,29 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Uhead.TablePlayiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "TablePlayiOS/TablePlayiOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E21D48992BCF4DC800E60EFA /* Release */ = {
+		E20485D62BD10087000AEC2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TablePlayiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = D9Y3685GJS;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "arkit metal";
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +337,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Uhead.TablePlayiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "TablePlayiOS/TablePlayiOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -344,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E21D487E2BCF4DC700E60EFA /* Build configuration list for PBXProject "TablePlayiOS" */ = {
+		E20485C12BD10085000AEC2D /* Build configuration list for PBXProject "TablePlayiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E21D48952BCF4DC800E60EFA /* Debug */,
-				E21D48962BCF4DC800E60EFA /* Release */,
+				E20485D22BD10087000AEC2D /* Debug */,
+				E20485D32BD10087000AEC2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E21D48972BCF4DC800E60EFA /* Build configuration list for PBXNativeTarget "TablePlayiOS" */ = {
+		E20485D42BD10087000AEC2D /* Build configuration list for PBXNativeTarget "TablePlayiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E21D48982BCF4DC800E60EFA /* Debug */,
-				E21D48992BCF4DC800E60EFA /* Release */,
+				E20485D52BD10087000AEC2D /* Debug */,
+				E20485D62BD10087000AEC2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E21D487B2BCF4DC700E60EFA /* Project object */;
+	rootObject = E20485BE2BD10085000AEC2D /* Project object */;
 }
