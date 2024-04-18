@@ -14,8 +14,8 @@ Time spent: **1** hours spent in total
 
 The following functionality is underway:
 
-- [] Create a json with play data and folder structure
-- [] App displays a list of past sports sorted by most recent
+- [x] Create a json with play data and folder structure
+- [x] App displays a list of past sports sorted by most recent
 - [] A video plays of the 2D visualization (mp4) to show the game
 
 The following **additional** features are implemented:
@@ -27,6 +27,8 @@ The following **additional** features are implemented:
 - [] Players and football/basketball etc are anchored to the field   
 
 ## Video Walkthrough
+[![AR Game List](https://img.youtube.com/vi/ZBwPsIC9hjA/0.jpg)](https://www.youtube.com/watch/ZBwPsIC9hjA)
+
 [![2D version](https://img.youtube.com/vi/eyO3FTeX5TI/0.jpg)](https://www.youtube.com/watch/eyO3FTeX5TI)
 
 [![3D version](https://img.youtube.com/vi/Qftx7mHzXO8/0.jpg)](https://www.youtube.com/watch/Qftx7mHzXO8)
