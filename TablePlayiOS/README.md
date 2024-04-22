@@ -4,7 +4,7 @@ Submitted by: **Nasif Zaman**
 
 A ipadOS table top game viewer for real game data. You can walk around the field and enjoy the game from any angle you like.
 
-Time spent: **1** hours spent in total
+Time spent: **15** hours spent in total
 
 ##Wireframe:
 
@@ -26,15 +26,21 @@ The following **additional** features are implemented:
 - [] The field is anchored to the table
 - [] Players and football/basketball etc are anchored to the field   
 
-## Video Walkthrough
+# Video Walkthrough
+
+### Second Sprint
 [![Second Sprint](https://img.youtube.com/vi/pKdX7K87USY/0.jpg)](https://www.youtube.com/watch/pKdX7K87USY)
 
+### First Sprint
 [![First Sprint](https://img.youtube.com/vi/ZBwPsIC9hjA/0.jpg)](https://www.youtube.com/watch/ZBwPsIC9hjA)
 
+### 2D version
 [![2D version](https://img.youtube.com/vi/eyO3FTeX5TI/0.jpg)](https://www.youtube.com/watch/eyO3FTeX5TI)
 
+### 3D version
 [![3D version](https://img.youtube.com/vi/Qftx7mHzXO8/0.jpg)](https://www.youtube.com/watch/Qftx7mHzXO8)
 
+### 3D Nearer version
 [![3D Nearer version](https://img.youtube.com/vi/Sq2xhPU1kQk/0.jpg)](https://www.youtube.com/watch/Sq2xhPU1kQk)
 
 
