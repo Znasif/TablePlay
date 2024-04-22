@@ -20,14 +20,16 @@ The following functionality is underway:
 
 The following **additional** features are implemented:
 
-- [] Users can pick one sport from list and they will be taken to an AR screen
-- [] User can select a rectangular surface that will be selected as the field for player population
+- [x] Users can pick one sport from list and they will be taken to an AR screen
+- [x] User can select a rectangular surface that will be selected as the field for player population
   - [] Note: Plan to do a visionOS version
 - [] The field is anchored to the table
 - [] Players and football/basketball etc are anchored to the field   
 
 ## Video Walkthrough
-[![AR Game List](https://img.youtube.com/vi/ZBwPsIC9hjA/0.jpg)](https://www.youtube.com/watch/ZBwPsIC9hjA)
+[![Second Sprint](https://img.youtube.com/vi/pKdX7K87USY/0.jpg)](https://www.youtube.com/watch/pKdX7K87USY)
+
+[![First Sprint](https://img.youtube.com/vi/ZBwPsIC9hjA/0.jpg)](https://www.youtube.com/watch/ZBwPsIC9hjA)
 
 [![2D version](https://img.youtube.com/vi/eyO3FTeX5TI/0.jpg)](https://www.youtube.com/watch/eyO3FTeX5TI)
 
@@ -36,9 +38,22 @@ The following **additional** features are implemented:
 [![3D Nearer version](https://img.youtube.com/vi/Sq2xhPU1kQk/0.jpg)](https://www.youtube.com/watch/Sq2xhPU1kQk)
 
 
-## Notes
+## Challenges Faced and Resolved
 
-Describe any challenges encountered while building the app.
+The following challenges were faced:
+
+- [x] importing json with not duplicates and appropriate swift structs
+- [x] using swiftUI to navigate between different views using programmatic buttons and navigationLink
+- [x] using MeshResource for bar creation (field plane and player cube)
+- [x] using TextureResource to load a texture into the plane mesh
+- [x] creating AR anchor to show where the plane will be attached to
+
+The following challenges remain:
+
+- [] keep the anchor attached to a real-world plane (detach and attach from entities)
+- [] have the different player cubes move around the field when the field is attached to a plane.
+- [] allow multiple fields to be attached at the same time in different locations so that all can be viewed together
+- [] allow plays to be favorited/ teams to be favorited (have this data persist)
 
 ## License
 
