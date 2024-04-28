@@ -81,7 +81,7 @@ struct SelectPlayButton: View {
 
   var body: some View {
       NavigationLink {
-          ARPlayView(selectedPlay: selectedPlay) // Pass bindings to Playlist view
+          ARPlayView(selectedPlay: selectedPlay, placeNow: false) // Pass bindings to Playlist view
       } label: {
           ZStack(content: {
               let xx = 200.0
@@ -171,22 +171,24 @@ struct FavoriteList : View {
 
 struct ARPlayView : View {
     let selectedPlay: Int
+    @State var placeNow: Bool
     var body: some View {
         ZStack(alignment: .center){
-            NFLARViewContainer(selectedPlay: selectedPlay).edgesIgnoringSafeArea(.all)
+            NFLARViewContainer(selectedPlay: selectedPlay, placeNow: $placeNow).edgesIgnoringSafeArea(.all)
             VStack{
                 Spacer()
-                Button(action: {
-                    
-                }){
-                    Image (systemName:"checkmark" )
-                        .frame (width:60, height: 60)
-                        .font(.title)
-                        .background (Color.green.opacity(0.75))
-                        .cornerRadius (30)
-                        .padding (20)
+                if !placeNow{
+                    Button(action: {
+                        placeNow = true
+                    }){
+                        Image (systemName:"checkmark" )
+                            .frame (width:60, height: 60)
+                            .font(.title)
+                            .background (Color.green.opacity(0.75))
+                            .cornerRadius (30)
+                            .padding (20)
+                    }//.disabled(!placeNow)
                 }
-                
             }
         }
     }}

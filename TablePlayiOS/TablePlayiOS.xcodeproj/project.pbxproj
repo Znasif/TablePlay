@@ -12,6 +12,9 @@
 		E20485CE2BD10087000AEC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20485CD2BD10087000AEC2D /* Assets.xcassets */; };
 		E20485D12BD10087000AEC2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20485D02BD10087000AEC2D /* Preview Assets.xcassets */; };
 		E20485DB2BD101FF000AEC2D /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20485DA2BD101FF000AEC2D /* GameData.swift */; };
+		E28BC2CA2BDDD62300AC140C /* playerAway.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E28BC2C82BDDD62300AC140C /* playerAway.usdz */; };
+		E28BC2CB2BDDD62300AC140C /* playerHome.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E28BC2C92BDDD62300AC140C /* playerHome.usdz */; };
+		E28EF85F2BDDD7DA002316DE /* footBallModel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E28EF85E2BDDD7D9002316DE /* footBallModel.usdz */; };
 		E29604E22BD31C1A00B7DD10 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = E29604E12BD31C1A00B7DD10 /* FocusEntity */; };
 		E29604E62BD44C1100B7DD10 /* NavViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29604E52BD44C1100B7DD10 /* NavViews.swift */; };
 		E29604E82BD44C2C00B7DD10 /* ViewColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29604E72BD44C2C00B7DD10 /* ViewColors.swift */; };
@@ -98,6 +101,9 @@
 		E20485CD2BD10087000AEC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20485D02BD10087000AEC2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E20485DA2BD101FF000AEC2D /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		E28BC2C82BDDD62300AC140C /* playerAway.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = playerAway.usdz; sourceTree = "<group>"; };
+		E28BC2C92BDDD62300AC140C /* playerHome.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = playerHome.usdz; sourceTree = "<group>"; };
+		E28EF85E2BDDD7D9002316DE /* footBallModel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = footBallModel.usdz; sourceTree = "<group>"; };
 		E29604E52BD44C1100B7DD10 /* NavViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViews.swift; sourceTree = "<group>"; };
 		E29604E72BD44C2C00B7DD10 /* ViewColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewColors.swift; sourceTree = "<group>"; };
 		E29604EE2BD4705B00B7DD10 /* NFLChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLChart.swift; sourceTree = "<group>"; };
@@ -217,6 +223,7 @@
 				E29604EE2BD4705B00B7DD10 /* NFLChart.swift */,
 				E20485D72BD1012D000AEC2D /* Data */,
 				E20485CD2BD10087000AEC2D /* Assets.xcassets */,
+				E28BC2C52BDDCE6700AC140C /* Models */,
 				E20485CF2BD10087000AEC2D /* Preview Content */,
 			);
 			path = TablePlayiOS;
@@ -308,6 +315,16 @@
 				E296052E2BD5F44C00B7DD10 /* nfl.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		E28BC2C52BDDCE6700AC140C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E28EF85E2BDDD7D9002316DE /* footBallModel.usdz */,
+				E28BC2C82BDDD62300AC140C /* playerAway.usdz */,
+				E28BC2C92BDDD62300AC140C /* playerHome.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,11 +457,14 @@
 				E29605B22BD5F4E500B7DD10 /* 2020121309.json in Resources */,
 				E296059F2BD5F4E500B7DD10 /* 2021010307.json in Resources */,
 				E29605BC2BD5F4E500B7DD10 /* 2020121313.json in Resources */,
+				E28BC2CB2BDDD62300AC140C /* playerHome.usdz in Resources */,
 				E29605822BD5F4E500B7DD10 /* 2021010315.json in Resources */,
+				E28EF85F2BDDD7DA002316DE /* footBallModel.usdz in Resources */,
 				E296058B2BD5F4E500B7DD10 /* 2020120800.json in Resources */,
 				E29605932BD5F4E500B7DD10 /* 2020112900.json in Resources */,
 				E29605812BD5F4E500B7DD10 /* 2021010310.json in Resources */,
 				E29605862BD5F4E500B7DD10 /* 2020121301.json in Resources */,
+				E28BC2CA2BDDD62300AC140C /* playerAway.usdz in Resources */,
 				E29605A12BD5F4E500B7DD10 /* 2020112201.json in Resources */,
 				E296057D2BD5F4E500B7DD10 /* 2020121311.json in Resources */,
 				E29605AD2BD5F4E500B7DD10 /* 2020120600.json in Resources */,

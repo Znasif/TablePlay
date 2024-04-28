@@ -114,8 +114,3 @@ class GameData{
         return ls
     }
 }
-
-
-class FormationController{
-    
-}
